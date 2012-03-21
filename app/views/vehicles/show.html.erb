@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Make:</b>
+  <%= @vehicle.make %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @vehicle.model %>
+</p>
+
+<p>
+  <b>Tires:</b>
+  <%= @vehicle.tires %>
+</p>
+
+<p>
+  <b>Wrecked:</b>
+  <%= @vehicle.wrecked %>
+</p>
+
+<p>
+  <b>Zombie:</b>
+  <%= try @vehicle.zombie.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>

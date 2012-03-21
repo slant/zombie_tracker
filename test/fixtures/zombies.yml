@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  health: 1
+  alive: false
+
+two:
+  name: MyString
+  health: 1
+  alive: false
